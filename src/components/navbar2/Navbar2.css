@@ -1,0 +1,6 @@
+.carousel{
+    align-items: center;
+align-content: center;}
+.carousel-indicators {
+    display: none !important;
+  }

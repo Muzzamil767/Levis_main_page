@@ -1,0 +1,40 @@
+.custom-list {
+    list-style-type: none;
+    padding: 0;
+    
+    margin-top: 50px;
+    margin-bottom: 130px;
+    
+  }
+
+  
+  .custom-list h5 {
+    margin-bottom: 10px;
+    color: black;
+  }
+  .header {
+    margin-bottom: 10px;
+    color: black;
+  }
+ 
+  .footer
+  {
+
+
+    background-color: #f3f3f3;
+
+  }
+  .custom-list li {
+    margin-bottom: 10px;
+    opacity: 0.7; /* Add some margin between each <li> element */
+  }
+ .custom-list2
+ {
+  list-style-type: none;
+ }
+ 
+ 
+ .custom-list2 li {
+  margin-bottom: 10px;
+  opacity: 0.7; /* Add some margin between each <li> element */
+}

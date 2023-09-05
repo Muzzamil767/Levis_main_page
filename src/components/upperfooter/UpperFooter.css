@@ -1,0 +1,47 @@
+.email
+{
+    width: 85%;
+    height: 25%;
+    border: 12px solid white;
+    background-color: white;
+}
+.whole
+{
+    background-color: #f3f3f3;
+    height: 550px;
+}
+.carousel-image {
+    max-width: 95%; /* Adjust the maximum width */
+    max-height: 300px; /* Adjust the maximum height */
+    
+    justify-content: space-around; /* Maintain aspect ratio and cover the container */
+  }
+  .a1
+  {
+    margin-right: 5x;
+  }
+
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black; /* Change the background color */
+}
+
+/* Style for active Carousel controls */
+.carousel-control-prev-icon.active,
+.carousel-control-next-icon.active {
+  background-color: black; /* Change the background color */
+}
+
+/* Style for Carousel indicators */
+.carousel-indicators li {
+  background-color: black; /* Change the background color */
+}
+
+
+
+@media (max-width: 767px) {
+    /* Apply styles for screens up to 767px width (mobile) */
+    .whole {
+      height: 1000px; /* Adjust the height as needed */
+    }
+  }

@@ -1,0 +1,85 @@
+/* CardsRow.css */
+.cards-expanded > .col-lg-3 {
+    order: -1; /* Move the sidebar to the left */
+  }
+  
+  .cards-expanded > .col-lg-9 {
+    order: 1; /* Move the cards to the right */
+  }
+  
+  /* Remove gutters between cards in expanded mode */
+  .cards-expanded .col-lg-4 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .filter-1 {
+    background-color: transparent;
+    border: none;
+    font-weight: bolder;
+    margin-right: 40px;
+    text-decoration: dashed;
+    /* Add any other custom styles you want for the button */
+  }
+  
+  
+@media (max-width: 991px) {
+  .offcanvas-open .offcanvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Adjust as needed */
+    max-width: 300px; /* Set a maximum width */
+    height: 2000px;
+    background-color: white;
+    z-index: 2000;
+    transition: left 0.3s ease-in-out;
+    margin-left: 10px;
+  }
+
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: x-large;
+  }
+}
+  
+
+.offcanvas-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.offcanvas-container::-webkit-scrollbar-thumb {
+  background-color: #A8A8A8;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+
+.offcanvas-container::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.offcanvas-container::-webkit-scrollbar-track {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

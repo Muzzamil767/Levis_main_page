@@ -1,0 +1,65 @@
+.bg-body-tertiary {
+    background-color: #ffffff; /* Replace this with your desired background color */
+  }
+  
+  /* Center the logo and adjust the spacing */
+  .navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .link
+  {
+    justify-content: space-between;
+
+  }
+  
+  /* Hide the brand name on smaller screens */
+  @media (max-width: 768px) {
+    .navbar .navbar-brand .brand-name {
+      display: none;
+    }
+  }
+  .icons-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart-icon,
+  .cart-icon {
+    cursor: pointer;
+    color: #555;
+    margin-right: 10px; /* Add some spacing between the icons */
+  }
+  .custom-search-input {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    width: 110px;
+    padding: 4px; /* Add some padding for visual appearance */
+    color: #555; /* Adjust the text color as needed */
+    transition: border-color 0.2s; /* Add a transition for smooth effects */
+    border-bottom: 1px solid #ccc; /* Add the single underline style */
+    
+  }
+  
+  /* Apply the hover effect on the underline */
+  .custom-search-input:hover {
+    border-color: #007bff; /* Change the underline color on hover */
+  }
+  
+  /* Remove the default focus styles */
+  .custom-search-input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #ccc; /* Add your desired color for the underline when focused */
+  }
+  .search-icon {
+    color: #555;
+    margin-left: 100px; /* Add some spacing between the icon and input */
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: -15px;
+  }
